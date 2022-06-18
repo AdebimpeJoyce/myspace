@@ -1,0 +1,117 @@
+/* .container{
+    display: flex;
+    background-color: hsla(0, 0%, 100%, 0.75);
+    flex-wrap: row wrap;
+    padding: 0;
+    margin: auto;
+    width: 1440px;
+    height: 1440px;
+   
+ 
+} */
+.container{
+    display: flex;
+    background-color: hsla(0, 0%, 100%, 0.75);
+    /* flex-direction: row; */
+    flex-wrap: row wrap;
+    padding: 0;
+    margin: auto;
+    width: 1440px;
+    height: 1440px;
+    justify-content: center;
+    align-items: center;
+}
+.first{
+    background-color: hsl(31, 77%, 52%);
+    width: 250px;
+    height: 500px;
+    /* margin: center; */
+}
+.second{
+    background-color: hsl(184, 100%, 22%);
+    width: 250px;
+    height: 500px;
+    /* margin: center; */
+}
+.third{
+    background-color: hsl(179, 100%, 13%);
+    width: 250px;
+    height: 500px;
+    /* margin: center; */
+}
+.text1{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 45px;
+    /* font-family: ; */
+    text-align: left;
+    font-variant: small-caps;
+    
+}
+.button1{
+    width: 120px;
+    height: 20px;
+    padding: 10px;
+    font-size: 15px;
+    border: 1px solid;
+    border-color: hsl(31, 77%, 52%);
+    background-color: hsla(0, 0%, 100%, 0.75);
+     
+    border-radius: 80px;
+    text-align: center;
+    
+}
+.button2{
+    width: 120px;
+    height: 20px;
+    padding: 10px;
+    font-size: 15px;
+    border: 1px solid;
+    border-color: hsl(184, 100%, 22%);
+    background-color: hsla(0, 0%, 100%, 0.75);
+    border-radius: 80px;
+    text-align: center;
+    
+}
+.button3{
+    width: 120px;
+    height: 20px;
+    padding: 10px;
+    font-size: 15px;
+    border: 1px solid;
+    border-radius: 80px;
+    text-align: center;
+    border-color: hsl(179, 100%, 13%);
+    background-color: hsla(0, 0%, 100%, 0.75);
+      
+    
+}
+.link1{
+    color: hsl(31, 77%, 52%); 
+    text-decoration: none;  
+    margin-bottom: 10px; 
+}
+.link2{
+    color: hsl(184, 100%, 22%);  
+    text-decoration: none;  
+     
+}
+.link3{
+    color: hsl(179, 100%, 13%);
+    text-decoration: none;   
+}
+p {
+    font-size: 15px; 
+    color: hsla(0, 0%, 100%, 0.75);
+}
+.container2{
+    width: 150px;
+    height: 250px;
+    margin:auto  ;
+}
+img{
+    margin-top: 50px ;
+    margin-left: 50px;
+}
+a:hover{
+    color:white;
+}
